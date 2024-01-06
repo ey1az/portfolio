@@ -109,7 +109,7 @@
 
                     <a href="#about" class="home__scroll">
                         <div class="home__scroll-box">
-                            <i class="ri-arrow-down-circle-line"></i>
+                            <i class="ri-arrow-down-double-line"></i>
                         </div>
 
                         <span class="home__scroll-text">
@@ -231,7 +231,87 @@
         </section>
 
         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contact Me</span>
+                    </h2>
 
+                    <p class="contact__description-1">
+                        Send me a message and I will get back to you as soon as I can!
+                    </p>
+
+                    <p class="contact__description-2">
+                        Your <b>Name</b> and <b>E-mail address</b> are needed.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send Me A Message
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="username" class="contact__input" id="name"
+                                    placeholder="Enter your name" required>
+                                <label for="name" class="contact__label">Name</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="usermail" class="contact__input" id="email"
+                                    placeholder="Enter your e-mail address" required>
+                                <label for="email" class="contact__label">E-mail Address</label>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="text" name="usersubject" class="contact__input" id="subject"
+                                placeholder="Enter the subject" required>
+                            <label for="subject" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="usermessage" id="message" class="contact__input"
+                                placeholder="Enter the message" required></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-mail-send-line"></i>Send the message!
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="assets/IMG/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description">
+                                You can also contact me on my social networks.
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="https://www.instagram.com/ey1az/" target="_blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/ey1az/" target="_blank" class="contact__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+
+                            <a href="https://github.com/ey1az" target="_blank" class="contact__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
