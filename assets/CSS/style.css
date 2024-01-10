@@ -293,6 +293,14 @@ img {
     box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
 }
 
+.active-link {
+    color: var(--white-color);
+}
+
+.active-link::after {
+    width: 25%;
+}
+
 .home__container {
     padding-top: 2rem;
 }
@@ -764,4 +772,71 @@ img {
 
 .contact__social-link:hover {
     background-color: var(--first-color);
+}
+
+.footer {
+    background-color: var(--black-color);
+}
+
+.footer__container {
+    padding-block: 3rem 2rem;
+    row-gap: 2.5rem;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.footer__link {
+    color: var(--white-color);
+    transition: color .4s;
+}
+
+.footer__link:hover {
+    color: var(--text-color-light);
+}
+
+.footer__copyright {
+    color: var(--text-color-light);
+    font-size: var(--small-font-size);
+    text-align: center;
+}
+
+.footer__copyright a {
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+}
+
+::-webkit-scrollbar {
+    width: .9rem;
+    background-color: hsl(0, 0%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background-color: hsl(0, 0%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0, 0%, 55%);
+}
+
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -50%;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    display: inline-flex;
+    padding: 8px;
+    font-size: 1.25rem;
+    z-index: var(--z-tooltip);
+    transition: bottom .4s, transform .4s, background-color .4s;
+}
+
+.scrollup:hover {
+    transform: translateY(-.3rem);
+
 }
