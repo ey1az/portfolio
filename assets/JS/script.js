@@ -102,3 +102,16 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1500,
+    delay: 400,
+    reset: true
+})
+
+scrollReveal.reveal('.home__profile, .contact__mail', { origin: 'right' })
+scrollReveal.reveal('.home__name, .home__info, .contact__social, .contact__data', { origin: 'left' })
+scrollReveal.reveal('.about__container', { origin: 'top' })
+scrollReveal.reveal('.projects__card', { interval: 100 })
