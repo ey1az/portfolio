@@ -893,6 +893,10 @@ body.dark-theme {
     bottom: 1rem;
 }
 
+.about__item-1 {
+    margin-bottom: 1.5rem;
+}
+
 @media screen and (max-width: 340px) {
     .container {
         margin-inline: 1rem;
@@ -1136,7 +1140,8 @@ body.dark-theme {
     }
 
     .about__description,
-    .about__item {
+    .about__item-1,
+    .about__item-2 {
         font-size: var(--h2-font-size);
     }
 
