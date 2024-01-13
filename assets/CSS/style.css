@@ -897,6 +897,11 @@ body.dark-theme {
     margin-bottom: 1.5rem;
 }
 
+.about__item-1 ul,
+.about__item-2 ul {
+    margin-top: .5rem;
+}
+
 @media screen and (max-width: 340px) {
     .container {
         margin-inline: 1rem;

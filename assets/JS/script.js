@@ -111,7 +111,6 @@ const scrollReveal = ScrollReveal({
     reset: true
 })
 
-scrollReveal.reveal('.home__profile, .contact__mail', { origin: 'right' })
-scrollReveal.reveal('.home__name, .home__info, .contact__social, .contact__data', { origin: 'left' })
-scrollReveal.reveal('.about__container', { origin: 'top' })
+scrollReveal.reveal('.home__profile, .contact__mail, .about__description, .about__list', { origin: 'right' })
+scrollReveal.reveal('.home__name, .home__info, .contact__social, .contact__data, .about__container .section__title-1', { origin: 'left' })
 scrollReveal.reveal('.projects__card', { interval: 100 })
